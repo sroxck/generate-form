@@ -1,7 +1,5 @@
 {
-
   "compilerOptions": {
-    "types": ["element-plus/global"],
     "baseUrl": ".",
     "jsx": "preserve",
     "strict": true,
@@ -10,13 +8,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
-    "lib": ["esnext", "dom"],
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.tsx",
-      "src/**/*.vue",
-      "tests/**/*.ts",
-      "tests/**/*.tsx"
-    ],
+    "lib": ["esnext", "dom"]
   }
 }

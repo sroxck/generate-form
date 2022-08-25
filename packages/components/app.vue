@@ -2,8 +2,9 @@
   <div><Form :schema="schema"></Form></div>
 </template>
 <script lang="ts" setup>
-import {Form} from 'generate-form'
+import Form from '../components/src/form/index.vue'
 const schema ={
+  type:'warning',
   width: "100%", //
   rules:[], // 校验规则
   inline:false, // 表单行内样式

@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue"
 import dts from 'vite-plugin-dts'
-import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig(
     
     {
@@ -49,9 +48,6 @@ export default defineConfig(
         },
         plugins: [
             vue(),
-            vueJsx({
-                // options are passed on to @vue/babel-plugin-jsx
-              }),
             dts({
                 //指定使用的tsconfig.json为我们整个项目根目录下掉,如果不配置,你也可以在components下新建tsconfig.json
                 tsConfigFilePath: '../../tsconfig.json'

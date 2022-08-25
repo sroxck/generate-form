@@ -1,10 +1,6 @@
-<template>
-  <div><Form :schema="schema"></Form></div>
-</template>
-<script lang="ts" setup>
-import {Form} from 'generate-form'
-const schema ={
+export default {
   width: "100%", //
+  type:'warning',
   rules:[], // 校验规则
   inline:false, // 表单行内样式
   labelPosition:'top',// 表单域标签的位置
@@ -116,5 +112,3 @@ const schema ={
    
   ], // 分为几列
 };
-
-</script>

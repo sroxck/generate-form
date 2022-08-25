@@ -1,5 +1,5 @@
 import button from './button.vue'
-import type {App,Plugin} from "vue"
+import type {App,Plugin} from "vue-demi"
 type SFCWithInstall<T> = T&Plugin
 const withInstall = <T>(comp:T) => {
     (comp as SFCWithInstall<T>).install = (app:App)=>{

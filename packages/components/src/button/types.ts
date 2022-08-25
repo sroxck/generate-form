@@ -1,6 +1,6 @@
 
 
-import { ExtractPropTypes } from 'vue'
+import { ExtractPropTypes } from 'vue-demi'
 
 
 export const ButtonType = ['default', 'primary', 'success', 'warning', 'danger']
